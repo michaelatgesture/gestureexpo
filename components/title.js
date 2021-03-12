@@ -1,15 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Title from './components/title'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-    <Title />
-    </View>
-  );
+const Title = () => {
+    return(
+        <View style={styles.container}>
+            <Text>Send Gifts Conveniently for Anyone & Any Occasion</Text>
+        </View>
+    )
 }
+
+export default Title;
 
 const styles = StyleSheet.create({
   container: {
